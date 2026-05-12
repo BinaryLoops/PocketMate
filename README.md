@@ -5,10 +5,7 @@ PocketMate is a DBMS-oriented personal finance web application built with Next.j
 This README explains the project from a **database design and data flow** perspective: schema, relationships, CRUD/query operations, integrity decisions, and how data-driven features (Gmail sync, statement import, analytics, AI insights) depend on the database.
 
 ## Team
-
-- Ayush (24BCE1548)
-- Niteesh Vemulapalli (24BCE1555)
-
+- Ayush
 ---
 
 ## 1) Problem Statement
