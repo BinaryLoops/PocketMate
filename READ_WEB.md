@@ -56,14 +56,14 @@ So in web programming terms: the site is built with **TypeScript and React (JSX)
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                        USER (Browser)                            │
+│                        USER (Browser)                           │
 └───────────────────────────────┬─────────────────────────────────┘
                                 │
 ┌───────────────────────────────▼─────────────────────────────────┐
-│  Next.js App (React)                                              │
+│  Next.js App (React)                                            │
 │  • App Router: /, /login, /signup, /dashboard, /goals, etc.     │
-│  • Root layout: AppProvider, Toaster, global CSS                 │
-│  • Route groups: (auth) and (app)                                 │
+│  • Root layout: AppProvider, Toaster, global CSS                │
+│  • Route groups: (auth) and (app)                               │
 └───────────────────────────────┬─────────────────────────────────┘
                                 │
         ┌───────────────────────┼───────────────────────┐
@@ -72,11 +72,11 @@ So in web programming terms: the site is built with **TypeScript and React (JSX)
 ┌───────────────┐     ┌──────────────────┐     ┌─────────────────┐
 │ React Context │     │  Next.js API     │     │  Genkit AI      │
 │ (AppContext)  │     │  Routes          │     │  (server-side)  │
-│ • user,       │     │  /api/ocr,       │     │  • Chatbot       │
-│   profile,    │     │  /api/speech-    │     │  • Spending      │
-│   goals,      │     │  to-text, etc.  │     │    alerts        │
-│   transactions│    └────────┬─────────┘     │  • Expense      │
-│ • Actions     │              │               │    recommendations│
+│ • user,       │     │  /api/ocr,       │     │  • Chatbot      │
+│   profile,    │     │  /api/speech-    │     │  • Spending     │
+│   goals,      │     │  to-text, etc.   │     │    alerts       │
+│   transactions│     └────────┬─────────┘     │  • Expense      │
+│ • Actions     │              │               │  recommendations│
 └───────┬───────┘              │               └────────┬────────┘
         │                      │                        │
         │    ┌─────────────────┼────────────────────────┘
